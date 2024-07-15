@@ -19,8 +19,11 @@ Realizado con la interfaz de Readline, que viene integrado en node. Para ejecuta
 - npm run throttle
 
 Este programa muestra como afecta la función throttle con un desfase de 1 segundo a la hora ejecutar la función callback. El programa es un contador que al pulsar una tecla suma 1 unidad al número anterior por pantalla.
+
 Al empezar, al pulsar cualquier tecla, aparecerá el número 1 ya que se inicia el contador. 
-Durante el intervalo de 1 segundo, cada vez que pulsemos una tecla, no incrementará el contador ya que la función throttle no permite la ejecución del incremento y veremos que se repite el número actual. 
+
+Durante el intervalo de 1 segundo, cada vez que pulsemos una tecla, no incrementará el contador ya que la función throttle no permite la ejecución del incremento y veremos que se repite el número actual.
+
 Pasado este intervalo se producirá el incremento ya que vuelve a empezar el bucle.  
 
 # Front End
