@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega 2.2 - Jaume Blanco</title>
+</head>
+<body>
+    <h2>Sprint 2 Entrega 2.2: Función throttle</h2>
+    <p>Pasa por pantalla el cursor del ratón y podrás observar lo siguiente:</p>
+    <p>- El contador normal muestra el conteo acumulado de cada vez que se ha desplazado el cursor por la pantalla.</p>
+    <p>- El contador throttle muestra el conteo acumulado de una unidad por cada segundo de desplazamiento ininterrumpido, es decir, al mover 10 veces seguidas el cursor dentro del intervalo de 1 segundo el contador mostrará sólo 1 movimiento.</p> 
+    <p>Esto ocurre porque la función throttle se ejecuta sólo la primera vez que es invocada dentro del intervalo de tiempo estipulado en la misma función (de 1 segundo en este ejercicio), y así sucesivamente.</p>
+
+    <div>
+        <b>Contador normal:</b>
+        <span id = "normal"></span>
+    </div>
+    <div>
+        <b>Contador con throttle:</b>
+        <span id = "throttle"></span>
+    </div>
+    
+    <script src = "./dist/app/throttleFE.js"></script>
+</body>
+</html>
