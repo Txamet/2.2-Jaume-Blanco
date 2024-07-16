@@ -1,12 +1,7 @@
 # Sprint 2 Entrega 2.2: Función Throttle
 # Configuración
 Instalar los siguientes módulos en la terminal:
-- npm init -y
-- npm install typescript -D
-- npm i -D ts-node
-- npm i -D jest typescript ts-jest @types/jest
-- npm i chalk@4.1.2
-- tsc -init
+- npm install
 - npx tsc
 
 # Test
